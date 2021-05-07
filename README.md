@@ -2,6 +2,8 @@
 sample demo authentication flow flutter with firebase [sumber](https://blog.codemagic.io/firebase-authentication-google-sign-in-using-flutter/)
 
 ## Getting Started
+pada kali ini kita daftarkan dahulu aplikasi untuk bisa akses pada [firebase](https://console.firebase.google.com/)
+contoh : `com.example.flutter_firebase_auth`
 
 ### 1. Firebase Configuration
 Untuk mengaktifkan service firebase pada aplikasi, perlu menambahkan plugin google ke dalam file `gradle`
@@ -59,8 +61,8 @@ flutter pub get
 ```
 
 ### 4. Note
-Masih terkendala saat sign google pada firebase dikarenakan harus mendaftarkan keystore ke dalam firebase (sumber)[https://codewithandrea.com/articles/keytool-command-not-found-how-to-fix-windows-macos/]
+Masih terkendala saat sign google pada firebase dikarenakan harus mendaftarkan keystore ke dalam firebase [sumber](https://codewithandrea.com/articles/keytool-command-not-found-how-to-fix-windows-macos/)
 
-![signinscreen](https://github.com/maulana20/flutter-firebase-auth/blob/master/screen/signinscreen.jpg)
+![signinscreen](https://github.com/maulana20/flutter-firebase-auth/blob/main/screen/signinscreen.jpg)
 
-![googleauth](https://github.com/maulana20/flutter-firebase-auth/blob/master/screen/googleauth.jpg)
+![googleauth](https://github.com/maulana20/flutter-firebase-auth/blob/main/screen/googleauth.jpg)
